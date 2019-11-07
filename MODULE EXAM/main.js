@@ -176,19 +176,19 @@ function updateScoreArea(winnerName) {
 
     function rankingMileStone() {
         if (playerScore < 5){
-            return 'Noob' +'<br>' + '<img src = images/youTriedMedal.jpg, width = "350px" height= "300px">'
+            return 'Noob' +'<br>' + '<img src = images/youTriedMedal.jpg width = "350px" height= "300px">'
         }
         else if (playerScore < 10){
-            return 'Amateur'+'<br>' + '<img src = images/bronzeMedal.jpg, width = "350px" height= "300px">'
+            return 'Amateur'+'<br>' + '<img src = images/bronzeMedal.jpg width = "350px" height= "300px">'
         } 
         else if (playerScore < 20){
-            return 'Novice'+'<br>' + '<img src = images/silverMedal.png, width = "350px" height= "300px">'
+            return 'Novice'+'<br>' + '<img src = images/silverMedal.png width = "350px" height= "300px">'
         }
         else if (playerScore < 50){
-            return 'pro'+'<br>' + '<img src = images/goldMedal.jpg, width = "350px" height= "300px">'
+            return 'pro'+'<br>' + '<img src = images/goldMedal.jpg width = "350px" height= "300px">'
         }
         else if (playerScore >= 50){
-            return 'Champion'+'<br>' + '<img src = images/championMedal.jpg, width = "350px" height= "300px">'
+            return 'Champion'+'<br>' + '<img src = images/championMedal.jpg width = "350px" height= "300px">'
         }
     }
 
