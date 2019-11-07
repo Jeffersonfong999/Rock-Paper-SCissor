@@ -174,17 +174,17 @@ function updateScoreArea(winnerName) {
     // your own function(s). Your function must have either parameters or return values
     // or both. Change the name of the function to indicate what it will do.
 
-    function rankingMileStone() {
+function rankingMileStone() {
         if (playerScore < 5){
             return 'Noob' +'<br>' + '<img src = images/youTriedMedal.jpg>'
         }
-        else if (playerScore == 5){
+        else if (playerScore < 10){
             return 'Amateur'+'<br>' + '<img src = images/bronzeMedal.jpg>'
         } 
-        else if (playerScore == 10){
+        else if (playerScore < 20){
             return 'Novice'+'<br>' + '<img src = images/silverMedal.jpg>'
         }
-        else if (playerScore == 20){
+        else if (playerScore < 50){
             return 'pro'+'<br>' + '<img src = images/goldMedal.jpg>'
         }
         else if (playerScore >= 50){
