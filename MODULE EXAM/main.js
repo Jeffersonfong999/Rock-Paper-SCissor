@@ -4,7 +4,7 @@
 let count = 3;
 let pPick = '';
 let cPick = '';
-let playerScore = 0;
+let playerScore = 20;
 let computerScore = 0;
 
 
@@ -185,10 +185,9 @@ function updateScoreArea(winnerName) {
             return 'Novice'+'<br>' + '<img src = images/silverMedal.png width = "350px" height= "300px">'
         }
         else if (playerScore < 50){
-            return 'pro'+'<br>' + '<img src = images/goldMedal.jpg width = "350px" height= "300px">'
+            return 'Pro'+'<br>' + '<img src = images/goldMedal.jpg width = "350px" height= "300px">'
         }
         else if (playerScore >= 50){
             return 'Champion'+'<br>' + '<img src = images/championMedal.jpg width = "350px" height= "300px">'
         }
     }
-
