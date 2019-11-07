@@ -1,0 +1,19 @@
+In this module exam, you will be coding the functions that will allow the rock-paper-scissors game to work
+
+NOTES:
+-Read the comments in the javascript for instructions on what is required for each functions
+-Do not alter any code (except global variables) that is above the green dotted lines
+-The HTML and CSS are already set and do not need to be altered. You may change them, but do so at your own risk.
+-When your functions are built correctly, the game should work and keep score properly.
+
+ASSESSMENT
+
+Coding Functions:
+setNames, getPlayerName, getCompName - 20%
+computerChooses - 20%
+getWinner - 20%
+showPicks - 10%
+
+Additional:
+Creativity function - 20%
+Code Organization & Clarity - 10%

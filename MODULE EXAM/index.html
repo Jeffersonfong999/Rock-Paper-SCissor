@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="countdown-area">3</div>
+    <h1>Welcome to ROCK-PAPER-SCISSORS</h1>
+    <h2>Make your choice....</h2>
+    <hr>
+    <button id="name-btn">Set Names</button>
+    
+    <table align="center" cellspacing="0">
+        <tr>
+            <td id="p-name">Player</td>
+            <td id="p-score">0</td>
+            <td id="c-score">0</td>
+            <td id="c-name">Computer</td>
+        </tr>
+    </table>
+   
+    
+    
+    <div class="selections">
+        <img id="rock" src="images/rock.png">
+        <img id="paper" src="images/paper.png">
+        <img id="scissors" src="images/scissors.png">
+    </div>
+
+    <div class="play-area">
+        <img id="p-move" src="images/question-mark.png">
+        <img id="c-move" src="images/question-mark.png">
+    </div>
+
+    <p id="winner-text"></p>
+    <h1>Ranking</h1>
+    <h2 id="ranking"></h1>
+    <button id = 'rankingRefresh'>See Player Rank</button>
+    
+    
+<!-- Load JS -->
+<script src="main.js"></script>
+</body>
+</html>
