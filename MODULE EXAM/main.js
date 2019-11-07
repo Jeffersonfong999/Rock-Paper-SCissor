@@ -4,7 +4,7 @@
 let count = 3;
 let pPick = '';
 let cPick = '';
-let playerScore = 20;
+let playerScore = 0;
 let computerScore = 0;
 
 
