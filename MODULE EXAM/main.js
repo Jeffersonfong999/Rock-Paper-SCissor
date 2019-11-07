@@ -174,21 +174,21 @@ function updateScoreArea(winnerName) {
     // your own function(s). Your function must have either parameters or return values
     // or both. Change the name of the function to indicate what it will do.
 
-function rankingMileStone() {
+    function rankingMileStone() {
         if (playerScore < 5){
-            return 'Noob' +'<br>' + '<img src = images/youTriedMedal.jpg>'
+            return 'Noob' +'<br>' + '<img src = images/youTriedMedal.jpg, width = "350px" height= "300px">'
         }
         else if (playerScore < 10){
-            return 'Amateur'+'<br>' + '<img src = images/bronzeMedal.jpg>'
+            return 'Amateur'+'<br>' + '<img src = images/bronzeMedal.jpg, width = "350px" height= "300px">'
         } 
         else if (playerScore < 20){
-            return 'Novice'+'<br>' + '<img src = images/silverMedal.jpg>'
+            return 'Novice'+'<br>' + '<img src = images/silverMedal.png, width = "350px" height= "300px">'
         }
         else if (playerScore < 50){
-            return 'pro'+'<br>' + '<img src = images/goldMedal.jpg>'
+            return 'pro'+'<br>' + '<img src = images/goldMedal.jpg, width = "350px" height= "300px">'
         }
         else if (playerScore >= 50){
-            return 'Champion'+'<br>' + '<img src = images/championMedal.jpg>'
+            return 'Champion'+'<br>' + '<img src = images/championMedal.jpg, width = "350px" height= "300px">'
         }
     }
 
